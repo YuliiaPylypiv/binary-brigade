@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.weather-info {
+    width: 100%; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}

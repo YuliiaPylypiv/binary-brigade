@@ -1,0 +1,75 @@
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
+}
+.top-bar  {
+  background-color: rgb(39, 39, 82);
+  height: 4em;
+  width: auto;
+
+}
+a:-webkit-any-link {
+  color:#d5d0d5
+
+}
+ .class ul {
+  color: #d5d0d5;
+ }
+
+/* Define styles for the news articles make changes as you see fit */
+.article {
+  border: 1px solid #ccc; /* Add border for each article */
+  padding: 20px; /* Add padding around each article */
+  margin-bottom: 20px; /* Add margin between each article */
+  width: calc(25% - 40px); /* Calculate width to fit 4 articles in a row */
+  float: left; /* Float the articles to align them horizontally */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* Style the title of each article */
+.article h2 {
+  margin-top: 0; /* Remove top margin for the title */
+  margin-bottom: 10px; /* Add bottom margin for the title */
+  font-size: 20px; /* Set font size for the title */
+}
+
+/* Style the description of each article */
+.article p {
+  margin-top: 0; /* Remove top margin for the paragraph */
+  margin-bottom: 10px; /* Add bottom margin for the paragraph */
+}
+
+/* Style the source of each article */
+.article .source {
+  font-style: italic; /* Italicize the source text */
+  color: #666; /* Set color for the source text */
+}
+
+/* Style the image of each article */
+.article img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Ensure the aspect ratio is maintained */
+  display: block; /* Remove extra space below the image */
+}
+
+/* Style the link to read more */
+.article a {
+  display: block; /* Display the link as a block element */
+  text-decoration: none; /* Remove underline from the link */
+  color: #007bff; /* Set color for the link text */
+  font-weight: bold; /* Make the link text bold */
+}
+
+/* Change link color on hover */
+.article a:hover {
+  color: #0056b3; /* Change link color on hover */
+}
