@@ -39,7 +39,7 @@ To run the application locally:
 ## Contributors
 
 - Alex Grossman (<agrossmann315@gmail.com>)
-- Julia Pylpiv (<add email>)
+- Julia Pylpiv (<pylypivyv@gmail.com>)
 - Jeffrey Cooley (<lydellcooley3@gmail.com>)
 
 ## License
